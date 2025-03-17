@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0a0a0a;
+    color:rgb(250, 241, 230);
+    line-height: 1.6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    height: 3.6vw;
+    width: 100%;
+    background-color: rgba(212, 214, 203, 0.925);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.15vw solid #333;
+    
+}
+
+#logo {
+    margin-top: 0.3vw;
+    height: 6.25vw;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 4vw;
+    font-size: 2vw;
+    gap: 3.7vw;
+}
+
+#navbar a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+}
+
+#start {
+    width: 100%;
+    height: 50vw;
+    background-image: url("https://wallpapers.com/images/hd/lebron-james-cavaliers-jersey-23-r6y477awl8vnrmp8.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center 76%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    width: 100vw;
+    padding: 2vw;
+}
+
+.box {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    color:rgb(250, 241, 230);
+    border-radius: 0.5vw;
+    box-shadow: 0 0 0.5vw rgba(240, 224, 6, 0.185);
+    text-align: center;
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
+
+.box p {
+    margin: 1vw 0;
+    line-height: 1.6;
+}
+
+#kalkulator {
+    font-size: 0.94vw;
+    color:rgb(250, 241, 230);
+    background-color: #1a1a1a;
+    padding: 1.4vw;
+    border-radius: 0.52vw;
+    width: 90%;
+    max-width: 31.25vw;
+    margin: 2.08vw auto;
+    box-shadow: 0 0.21vw 0.52vw rgba(0, 0, 0, 0.3);
+}
+
+#kalkulator h2 {
+    margin-bottom: 1.4vw;
+    font-size: 1.46vw;
+    font-weight: 700;
+    color: #ff4757;
+}
+
+#kalkulator label {
+    display: block;
+    margin-bottom: 0.52vw;
+    font-weight: 500;
+}
+
+#kalkulator input {
+    width: 100%;
+    padding: 0.52vw;
+    margin-bottom: 0.78vw;
+    border-radius: 0.26vw;
+    border: 0.05vw solid #333;
+    background-color: #262626;
+    color:rgb(250, 241, 230);
+}
+#kalkulator button {
+    padding: 0.52vw 1.4vw;
+    background-color: #ff4757;
+    color:rgb(250, 241, 230);
+    border: none;
+    border-radius: 0.26vw;
+    cursor: pointer;
+    font-size: 0.94vw;
+    transition: background-color 0.3s ease;
+}
+
+#kalkulator button:hover {
+    background-color: #ff2b3d;
+    transform: scale(1.05);
+    transition: all 0.42s;
+}
+
+#rezultat {
+    margin-top: 1.4vw;
+    font-size: 1.25vw;
+    font-weight: 500;
+}
+
+#score {
+    color: #ff4757;
+    font-weight: 700;
+}
+h2{
+    color: #ff4757;
+}

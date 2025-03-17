@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Points Calc</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <a href="fantasy.html">
+            <img src="https://logos-world.net/wp-content/uploads/2022/01/Lebron-James-Logo.png" alt="logo" id="logo">
+        </a>
+        <div id="navbar">
+            <p1><a href="#kalkulator">Calc</a></p1>
+        </div>
+    </div>
+
+    <div id="start"></div>
+    
+    <div class="container">
+        <div class="box">
+            <h2>Kaj je Fantasy Score Kalkulator</h2>
+            <p>Kalkulator točk za fantazijsko košarko je spletno orodje, ki izračuna skupne točke košarkarja v fantazijski košarkarski ligi na podlagi različnih statističnih kategorij.</p>
+        <p>Kalkulator uporablja JavaScript kodo za zajem vhodnih vrednosti uporabnika, izvajanje izračunov in prikaz rezultata.</p>
+    </div>
+    <div class="box">
+        <h2>Fantasy NBA All-TimeRanking</h2>
+
+        <p>1. Hakeem Olajuwon - 120.4 FantasyPoints - 10.3.1987</p>
+        <p>2. Michael Jordan - 112.6 FantasyPoints - 28.3.1990</p>
+        <p>3. Hakeem Olajuwon - 112.1 FantasyPoints - 3.3.1990</p>
+        <p>4. Shaquille O'Neal - 107.1 FantasyPoints - 20.11.1993</p>
+        <p>5. Luka Dončić - 105.2 FantasyPoints - 27.12.2022</p>
+    </div>
+    </div>
+
+    <div id="kalkulator">
+        <h2>NBA Fantasy Score Kalkulator</h2>
+        <form id="fantasyForm">
+            <label for="points">Točke:</label>
+            <input type="number" id="points" name="points" required>
+            <br>
+            <label for="rebounds">Skoki:</label>
+            <input type="number" id="rebounds" name="rebounds" required>
+            <br>
+            <label for="assists">Asistence:</label>
+            <input type="number" id="assists" name="assists" required>
+            <br>
+            <label for="steals">Ukradene žoge:</label>
+            <input type="number" id="steals" name="steals" required>
+            <br>
+            <label for="blocks">Blokade:</label>
+            <input type="number" id="blocks" name="blocks" required>
+            <br>
+            <label for="to">Izgubljene žoge:</label>
+            <input type="number" id="to" name="to" required>
+            <br>
+            <button type="button" onclick="izracunajFantasyScore()">Izračunaj</button>
+        </form>
+        <h3 id="rezultat">Fantasy Score: <span id="score">0</span></h3>
+    </div>
+    <script src="script.js"></script>
+</html>
