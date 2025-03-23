@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     display: flex;
     height: 3.6vw;
     width: 100%;
-    background-color: rgba(212, 214, 203, 0.925);
+    background-color: rgb(197, 197, 197);
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.15vw solid #333;
@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 2vw;
-    width: 100vw;
+    width: 100%;
     padding: 2vw;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 #kalkulator button {
     padding: 0.52vw 1.4vw;
-    background-color: #ff4757;
+    background-color: #dd2e3c;
     color:rgb(250, 241, 230);
     border: none;
     border-radius: 0.26vw;
@@ -134,7 +134,7 @@ body {
 }
 
 #kalkulator button:hover {
-    background-color: #ff2b3d;
+    background-color: rgb(179, 39, 51);
     transform: scale(1.05);
     transition: all 0.42s;
 }
@@ -149,6 +149,37 @@ body {
     color: #ff4757;
     font-weight: 700;
 }
+
+#footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 0.3vw;
+}
+
+
+#footer a{
+    color: #ff4757;
+    text-decoration: none;
+}
+
 h2{
     color: #ff4757;
+}
+
+::-webkit-scrollbar{
+width: 0.7vw;
+}
+::-webkit-scrollbar-track{
+background: black;
+}
+::-webkit-scrollbar-thumb{
+background: #131313;
+border-radius: 0.25vw;
+}
+::-webkit-scrollbar-thumb:hover{
+background: #262626;
 }
