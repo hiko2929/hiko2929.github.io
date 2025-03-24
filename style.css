@@ -153,6 +153,7 @@ body {
     margin-top: 20px;
     font-weight: bold;
     border-radius: 0.3vw;
+    max-height: 2vw;
 }
 
 
